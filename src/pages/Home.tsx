@@ -40,13 +40,6 @@ export default function Home({ onRegisterClick }: HomeProps) {
       <section className="relative bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 text-white py-20">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="mb-6">
-            <img
-              src=https://media.istockphoto.com/id/1290839959/photo/beautiful-flute.webp?s=1024x1024&w=is&k=20&c=cDmyzCG-STw2MGYVTYdHtgnFRoQqBfWP_1haHNWDUrc=
-              alt="Flute musician"
-              className="w-full h-96 object-cover rounded-2xl shadow-2xl"
-            />
-          </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4">
             Hyderabad Flute Festival
           </h1>
