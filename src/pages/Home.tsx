@@ -3,9 +3,10 @@ import { useAuth } from '../contexts/AuthContext';
 
 type HomeProps = {
   onRegisterClick: () => void;
+  onSignupClick: () => void;
 };
 
-export default function Home({ onRegisterClick }: HomeProps) {
+export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
   const { signOut, user } = useAuth();
 
   const handleLogout = async () => {
@@ -24,14 +25,18 @@ export default function Home({ onRegisterClick }: HomeProps) {
               <span className="text-xl font-bold text-gray-900">Hyderabad Flute Festival</span>
             </div>
             <div className="flex items-center space-x-4">
-              <span className="text-sm text-gray-600 hidden sm:block">{user?.email}</span>
-              <button
-                onClick={handleLogout}
-                className="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition text-gray-700"
-              >
-                <LogOut className="w-4 h-4" />
-                <span>Logout</span>
-              </button>
+              {user && (
+                <>
+                  <span className="text-sm text-gray-600 hidden sm:block">{user?.email}</span>
+                  <button
+                    onClick={handleLogout}
+                    className="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition text-gray-700"
+                  >
+                    <LogOut className="w-4 h-4" />
+                    <span>Logout</span>
+                  </button>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -212,12 +217,31 @@ export default function Home({ onRegisterClick }: HomeProps) {
           <p className="text-xl text-white mb-8 opacity-90">
             Join us in celebrating the legacy of a legendary flutist
           </p>
-          <button
-            onClick={onRegisterClick}
-            className="bg-white text-amber-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl"
-          >
-            Participate / Watch
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            {user ? (
+              <button
+                onClick={onRegisterClick}
+                className="bg-white text-amber-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl"
+              >
+                Participate / Watch
+              </button>
+            ) : (
+              <>
+                <button
+                  onClick={onSignupClick}
+                  className="bg-white text-amber-600 px-12 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all transform hover:scale-105 shadow-2xl"
+                >
+                  Sign Up to Participate
+                </button>
+                <button
+                  onClick={onRegisterClick}
+                  className="bg-amber-600 text-white px-12 py-4 rounded-full text-xl font-bold hover:bg-amber-700 transition-all transform hover:scale-105 shadow-2xl border-2 border-white"
+                >
+                  Watch Event
+                </button>
+              </>
+            )}
+          </div>
         </div>
       </section>
 

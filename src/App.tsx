@@ -9,7 +9,7 @@ type Page = 'login' | 'signup' | 'home' | 'registration';
 
 function AppContent() {
   const { user, loading } = useAuth();
-  const [currentPage, setCurrentPage] = useState<Page>('login');
+  const [currentPage, setCurrentPage] = useState<Page>('home');
 
   if (loading) {
     return (
@@ -22,18 +22,27 @@ function AppContent() {
     );
   }
 
+  if (currentPage === 'home') {
+    return (
+      <Home
+        onRegisterClick={() => setCurrentPage('registration')}
+        onSignupClick={() => setCurrentPage('signup')}
+      />
+    );
+  }
+
   if (!user) {
     if (currentPage === 'signup') {
       return (
         <Signup
-          onSuccess={() => setCurrentPage('home')}
+          onSuccess={() => setCurrentPage('registration')}
           onSwitchToLogin={() => setCurrentPage('login')}
         />
       );
     }
     return (
       <Login
-        onSuccess={() => setCurrentPage('home')}
+        onSuccess={() => setCurrentPage('registration')}
         onSwitchToSignup={() => setCurrentPage('signup')}
       />
     );
@@ -43,7 +52,12 @@ function AppContent() {
     return <Registration onBack={() => setCurrentPage('home')} />;
   }
 
-  return <Home onRegisterClick={() => setCurrentPage('registration')} />;
+  return (
+    <Home
+      onRegisterClick={() => setCurrentPage('registration')}
+      onSignupClick={() => setCurrentPage('signup')}
+    />
+  );
 }
 
 function App() {
