@@ -78,14 +78,11 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl transform rotate-3"></div>
-                <img
-                  src="/gemini_generated_image_l31fp2l31fp2l31f.png"
-                  alt="Late Sri BalaRama Sarma"
-                  className="relative w-full max-w-sm rounded-2xl shadow-2xl object-cover"
-                />
-              </div>
+              <img
+                src="/gemini_generated_image_l31fp2l31fp2l31f.png"
+                alt="Late Sri BalaRama Sarma"
+                className="w-full max-w-sm rounded-2xl shadow-2xl object-cover"
+              />
             </div>
           </div>
         </div>
