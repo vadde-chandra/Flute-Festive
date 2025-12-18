@@ -59,20 +59,34 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-          <div className="flex items-center space-x-3 mb-6">
-            <Heart className="w-8 h-8 text-amber-600" />
-            <h2 className="text-4xl font-bold text-gray-900">About the Festival</h2>
-          </div>
-          <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
-            <p>
-              The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri BalaRama Sarma garu</strong>.
-            </p>
-            <p>
-              Organized by <strong>Sesha Latha Manda</strong>, his daughter, along with his students, this festival celebrates his lifelong contributions to flute music, teaching, and cultural heritage.
-            </p>
-            <p>
-              This special event brings together all his students performing as one ensemble, showcasing classical and fusion styles in a heartfelt tribute to his memory.
-            </p>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <div className="flex items-center space-x-3 mb-6">
+                <Heart className="w-8 h-8 text-amber-600" />
+                <h2 className="text-4xl font-bold text-gray-900">About the Festival</h2>
+              </div>
+              <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
+                <p>
+                  The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri BalaRama Sarma garu</strong>.
+                </p>
+                <p>
+                  Organized by <strong>Sesha Latha Manda</strong>, his daughter, along with his students, this festival celebrates his lifelong contributions to flute music, teaching, and cultural heritage.
+                </p>
+                <p>
+                  This special event brings together all his students performing as one ensemble, showcasing classical and fusion styles in a heartfelt tribute to his memory.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-100 to-orange-100 rounded-2xl transform rotate-3"></div>
+                <img
+                  src="/gemini_generated_image_l31fp2l31fp2l31f.png"
+                  alt="Late Sri BalaRama Sarma"
+                  className="relative w-full max-w-sm rounded-2xl shadow-2xl object-cover"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
