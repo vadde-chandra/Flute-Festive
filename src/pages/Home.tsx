@@ -147,8 +147,8 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 bg-amber-50 rounded-xl">
-              <h3 className="font-bold text-lg text-gray-900 mb-2">Annual Competitions</h3>
-              <p className="text-gray-700">Cultural competitions starting March 23</p>
+              <h3 className="font-bold text-lg text-gray-900 mb-2">Upcoming Events</h3>
+              <p className="text-gray-700">Coming Soon</p>
             </div>
             <div className="p-6 bg-orange-50 rounded-xl">
               <h3 className="font-bold text-lg text-gray-900 mb-2">Performance Styles</h3>
