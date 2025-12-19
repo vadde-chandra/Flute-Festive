@@ -79,9 +79,9 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
             </div>
             <div className="flex justify-center">
               <img
-                src="/gemini_generated_image_l31fp2l31fp2l31f.png"
+                src="/cropped_circle_image_(1) copy.png"
                 alt="Late Sri BalaRama Sarma"
-                className="w-full max-w-sm rounded-2xl shadow-2xl object-cover"
+                className="w-full max-w-sm rounded-full shadow-2xl object-cover"
               />
             </div>
           </div>
@@ -98,31 +98,31 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
               <img
-                src="https://images.pexels.com/photos/6966021/pexels-photo-6966021.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Classical music performance"
+                src="/sesha_latha_manda.jpeg"
+                alt="Sesha Latha Manda"
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Classical Segment</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Venu Nadha Neerajanam</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>Carnatic & Hindustani ragas</span>
+                  <span>Carnatic ragas</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>Accompanied by traditional percussion: mridangam, tabla, tanpura</span>
+                  <span>Accompanied by traditional percussion: mridangam, Violin</span>
                 </li>
               </ul>
             </div>
 
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
               <img
-                src="https://images.pexels.com/photos/7520391/pexels-photo-7520391.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Ensemble performance"
+                src="/venu_nadha_neerajanam.jpeg"
+                alt="Venu Nadha Neerajanam"
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                "Smarana Sangeetam – Symphony of Ten Flutes"
+                Venu Nadha Neerajanam
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
@@ -143,18 +143,41 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
           <div className="flex items-center space-x-3 mb-6">
             <Calendar className="w-8 h-8 text-amber-600" />
-            <h2 className="text-4xl font-bold text-gray-900">Future Plans</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Itinerary Programme Schedule</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">December 30</h3>
+            <div className="space-y-4">
+              <div className="flex items-start space-x-4 bg-white rounded-lg p-4 shadow-sm">
+                <Clock className="w-6 h-6 text-amber-600 mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="font-semibold text-gray-900">5:30 PM – 5:40 PM</p>
+                  <p className="text-gray-700">Welcome Address & Lighting of the Lamp</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4 bg-white rounded-lg p-4 shadow-sm">
+                <Clock className="w-6 h-6 text-amber-600 mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="font-semibold text-gray-900">5:40 PM – 5:55 PM</p>
+                  <p className="text-gray-700">Flute Solo by Manda Seshalatha</p>
+                </div>
+              </div>
+              <div className="flex items-start space-x-4 bg-white rounded-lg p-4 shadow-sm">
+                <Clock className="w-6 h-6 text-amber-600 mt-1 flex-shrink-0" />
+                <div className="flex-1">
+                  <p className="font-semibold text-gray-900">5:55 PM – 6:15 PM</p>
+                  <p className="text-gray-700">Flute Ensemble by Shesham Ramana & His Students</p>
+                  <p className="text-sm text-gray-600 mt-1">Followed by Distribution of Gifts to Students</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-8 grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-amber-50 rounded-xl">
-              <h3 className="font-bold text-lg text-gray-900 mb-2">Upcoming Events</h3>
-              <p className="text-gray-700">Coming Soon</p>
+              <h3 className="font-bold text-lg text-gray-900 mb-2">Performance Styles</h3>
+              <p className="text-gray-700">Classical Karnataka flute rooted in vocal tradition</p>
             </div>
             <div className="p-6 bg-orange-50 rounded-xl">
-              <h3 className="font-bold text-lg text-gray-900 mb-2">Performance Styles</h3>
-              <p className="text-gray-700">Solo & ensemble across classical, fusion, and folk</p>
-            </div>
-            <div className="p-6 bg-red-50 rounded-xl">
               <h3 className="font-bold text-lg text-gray-900 mb-2">Musical Legacy</h3>
               <p className="text-gray-700">Encouraging emerging musicians and keeping his lineage alive</p>
             </div>
@@ -213,10 +236,66 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
             <Users className="w-8 h-8 text-amber-600" />
             <h2 className="text-4xl font-bold text-gray-900">Organized By</h2>
           </div>
-          <p className="text-lg text-gray-700 mb-2">
+          <p className="text-lg text-gray-700 mb-6">
             <strong>Sesha Latha Manda</strong>, daughter of Late Sri BalaRama Sarma
           </p>
-          <p className="text-gray-600">In collaboration with his students</p>
+          <div className="mt-6">
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Organising Committee – Supporters</h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="p-4 bg-amber-50 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Achyut Reddy</p>
+              </div>
+              <div className="p-4 bg-orange-50 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Purnachandra</p>
+              </div>
+              <div className="p-4 bg-red-50 rounded-lg text-center">
+                <p className="font-semibold text-gray-900">Krishna Charith</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gradient-to-br from-amber-50 to-orange-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-2xl shadow-xl p-8">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Event Organizing Contact</h2>
+              <div className="space-y-4">
+                <div>
+                  <p className="text-sm text-gray-600 mb-1">Name</p>
+                  <p className="text-lg font-semibold text-gray-900">Seshalatha Manda</p>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600 mb-1">Phone</p>
+                  <p className="text-lg font-semibold text-gray-900">+91 9962243380</p>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-600 mb-1">Email</p>
+                  <p className="text-lg font-semibold text-gray-900">Latha.manda99@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-xl p-8">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Sponsors</h2>
+              <div className="grid grid-cols-2 gap-4 mb-8">
+                <div className="p-4 bg-amber-50 rounded-lg text-center">
+                  <p className="font-semibold text-gray-900">Latha Manda</p>
+                </div>
+                <div className="p-4 bg-orange-50 rounded-lg text-center">
+                  <p className="font-semibold text-gray-900">Krishna Charith</p>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Website Developed By</h3>
+              <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-lg p-4">
+                <p className="font-semibold text-gray-900 mb-2">Purna Chandra</p>
+                <p className="text-sm text-gray-700">Mobile: +91 7075069816</p>
+                <p className="text-sm text-gray-700">Email: purnachandra.sde@gmail.com</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
