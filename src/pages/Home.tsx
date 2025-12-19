@@ -49,7 +49,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
             Hyderabad Flute Festival
           </h1>
           <p className="text-2xl md:text-3xl mb-2 font-light">
-            Celebrating the Legacy of Late Sri BalaRama Sarma
+            Celebrating the Legacy of Late Sri Manda BalaRama Sarma
           </p>
           <p className="text-xl md:text-2xl opacity-90">
             A Musical Tribute by Family & Students
@@ -67,13 +67,13 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
               </div>
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
                 <p>
-                  The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri BalaRama Sarma garu</strong>.
+                  The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri BalaRama Manda Sarma garu</strong>.
                 </p>
                 <p>
-                  Organized by <strong>Sesha Latha Manda</strong>, his daughter, along with his students, this festival celebrates his lifelong contributions to flute music, teaching, and cultural heritage.
+                  Organized by <strong>SeshaLatha Manda</strong>, his daughter, along with his students, this festival celebrates his lifelong contributions to flute music, teaching, and cultural heritage.
                 </p>
                 <p>
-                  This special event brings together all his students performing as one ensemble, showcasing classical and fusion styles in a heartfelt tribute to his memory.
+                 This special event brings together all his students performing as one ensemble, showcasing Classical Flute  Music in a heartfelt tribute to his memory.
                 </p>
               </div>
             </div>
@@ -102,15 +102,15 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
                 alt="Sesha Latha Manda"
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Venu Nadha Neerajanam</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Classical Performane </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>Carnatic ragas</span>
-                </li>
+                  <span>Presentation of Carnatic ragas in the traditional format, accompanied by violin and mridangam.
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>Accompanied by traditional percussion: mridangam, Violin</span>
+                  <span>Presentation of Carnatic ragas in the traditional format, accompanied by violin and mridangam.
+* Performed by SeshaLatha Manda, the daughter and disciple of Late Sri Manda Balarama Sarma (Flute), honoring and continuing his classical musical legacy. </span>
                 </li>
               </ul>
             </div>
@@ -122,16 +122,16 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Venu Nadha Neerajanam
+                Venu Gaana Neerajanam
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>All students perform together as a synchronized ensemble</span>
+                  <span>This presentation of Venu Nadha Neerajanam brings together students in a unified ensemble under the guidance of SeshaLatha Manda. </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>Special composition dedicated to Late Sri BalaRama Sarma garu</span>
+                  <span>The performance is a heartfelt tribute to her late father, Late Sri Manda Balarama Sarma garu, celebrating his legacy through collective musical expression.</span>
                 </li>
               </ul>
             </div>
@@ -159,7 +159,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
                 <Clock className="w-6 h-6 text-amber-600 mt-1 flex-shrink-0" />
                 <div className="flex-1">
                   <p className="font-semibold text-gray-900">5:40 PM – 5:55 PM</p>
-                  <p className="text-gray-700">Flute Solo by Manda Seshalatha</p>
+                  <p className="text-gray-700">Flute Solo by Seshalatha  Manda</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4 bg-white rounded-lg p-4 shadow-sm">
@@ -167,6 +167,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
                 <div className="flex-1">
                   <p className="font-semibold text-gray-900">5:55 PM – 6:15 PM</p>
                   <p className="text-gray-700">Flute Ensemble by Shesham Ramana & His Students</p>
+                     <p className="text-gray-700">Accompaniments Dr.P.Srinivasa Gopalan (Mridangagam) & Anantha Sowri rajan (Violin)</p>
                   <p className="text-sm text-gray-600 mt-1">Followed by Distribution of Gifts to Students</p>
                 </div>
               </div>
@@ -175,7 +176,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
           <div className="mt-8 grid md:grid-cols-2 gap-6">
             <div className="p-6 bg-amber-50 rounded-xl">
               <h3 className="font-bold text-lg text-gray-900 mb-2">Performance Styles</h3>
-              <p className="text-gray-700">Classical Karnataka flute rooted in vocal tradition</p>
+              <p className="text-gray-700">Caratic flute style rich in gamakas and bhava</p>
             </div>
             <div className="p-6 bg-orange-50 rounded-xl">
               <h3 className="font-bold text-lg text-gray-900 mb-2">Musical Legacy</h3>
@@ -237,7 +238,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
             <h2 className="text-4xl font-bold text-gray-900">Organized By</h2>
           </div>
           <p className="text-lg text-gray-700 mb-6">
-            <strong>Sesha Latha Manda</strong>, daughter of Late Sri BalaRama Sarma
+            <strong>SeshaLatha Manda</strong>, daughter of Late Sri Manda BalaRama Sarma
           </p>
           <div className="mt-6">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Organising Committee – Supporters</h3>
@@ -281,10 +282,10 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Sponsors</h2>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="p-4 bg-amber-50 rounded-lg text-center">
-                  <p className="font-semibold text-gray-900">Latha Manda</p>
+                  <p className="font-semibold text-gray-900">Seshalatha Manda(Daughter)</p>
                 </div>
                 <div className="p-4 bg-orange-50 rounded-lg text-center">
-                  <p className="font-semibold text-gray-900">Krishna Charith</p>
+                  <p className="font-semibold text-gray-900">Krishna Charith(GrandSon)</p>
                 </div>
               </div>
 
@@ -338,7 +339,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
       <footer className="bg-gray-900 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-400">
-            © 2025 Hyderabad Flute Festival. A tribute to Late Sri BalaRama Sarma.
+            © 2025 Hyderabad Flute Festival. A tribute to Late Sri Manda BalaRama Sarma.
           </p>
         </div>
       </footer>
