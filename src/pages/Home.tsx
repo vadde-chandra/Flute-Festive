@@ -128,29 +128,38 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
 </div>
 
 
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
-              <img
-                src="/venu_nadha_neerajanam.jpeg"
-                alt="Venu Nadha Neerajanam"
-                className="w-full h-48 object-cover rounded-lg mb-6"
-              />
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                Venu Gaana Neerajanam
-              </h3>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <span className="text-amber-600 mr-2">•</span>
-                  <span>This presentation of Venu Nadha Neerajanam brings together students in a unified ensemble under the guidance of SeshaLatha Manda. </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-amber-600 mr-2">•</span>
-                  <span>The performance is a heartfelt tribute to her late father, Late Sri Manda Balarama Sarma garu, celebrating his legacy through collective musical expression.</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+             
+    <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
+      <img
+        src="/venu_nadha_neerajanam.jpeg"
+        alt="Venu Nadha Neerajanam"
+        className="w-full h-48 object-cover rounded-lg mb-6"
+      />
+
+      <h3 className="text-2xl font-bold text-gray-900 mb-4">
+        Venu Gaana Neerajanam
+      </h3>
+
+      <ul className="space-y-3 text-gray-700">
+        <li className="flex items-start">
+          <span className="text-amber-600 mr-2">•</span>
+          <span>
+            Venu Nadha Neerajanam presented by a unified student ensemble under
+            the guidance of SeshaLatha Manda.
+          </span>
+        </li>
+
+        <li className="flex items-start">
+          <span className="text-amber-600 mr-2">•</span>
+          <span>
+            A heartfelt tribute to Late Sri Manda Balarama Sarma garu, honoring
+            his musical legacy through collective expression.
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
