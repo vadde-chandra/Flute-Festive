@@ -95,24 +95,38 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Festival Highlights</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
-              <img
-                src="/sesha_latha_manda.jpeg"
-                alt="Sesha Latha Manda"
-                className="w-full h-48 object-cover rounded-lg mb-6"
-              />
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Classical Performane </h3>
-              <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start">
-                  <span className="text-amber-600 mr-2">•</span>
-                  <span>Presentation of Carnatic ragas in the traditional format, accompanied by violin and mridangam.
-                <li className="flex items-start">
-                  <span className="text-amber-600 mr-2">•</span>
-                  <span>Traditional Carnatic raga presentation with violin and mridangam by SeshaLatha Manda, disciple and daughter of Late Sri Manda Balarama Sarma. </span>
-                </li>
-              </ul>
-            </div>
+         <div className="grid md:grid-cols-2 gap-8">
+  <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
+    <img
+      src="/sesha_latha_manda.jpeg"
+      alt="Sesha Latha Manda"
+      className="w-full h-48 object-cover rounded-lg mb-6"
+    />
+
+    <h3 className="text-2xl font-bold text-gray-900 mb-4">
+      Classical Performance
+    </h3>
+
+    <ul className="space-y-3 text-gray-700">
+      <li className="flex items-start">
+        <span className="text-amber-600 mr-2">•</span>
+        <span>
+          Presentation of Carnatic ragas in traditional format with violin and
+          mridangam accompaniment.
+        </span>
+      </li>
+
+      <li className="flex items-start">
+        <span className="text-amber-600 mr-2">•</span>
+        <span>
+          Performed by SeshaLatha Manda, disciple and daughter of Late Sri Manda
+          Balarama Sarma, continuing his classical legacy.
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
             <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
               <img
