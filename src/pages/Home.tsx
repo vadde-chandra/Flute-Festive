@@ -105,7 +105,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
         <img
           src="/final_classical.png"
           alt="Sesha Latha Manda"
-          className="w-200  h-48 object-top rounded-lg mb-6"
+          className="w-100  h-48 object-top rounded-lg mb-6"
         />
 
         <h3 className="text-2xl font-bold text-gray-900 mb-4">
