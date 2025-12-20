@@ -109,8 +109,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
                   <span>Presentation of Carnatic ragas in the traditional format, accompanied by violin and mridangam.
                 <li className="flex items-start">
                   <span className="text-amber-600 mr-2">•</span>
-                  <span>Presentation of Carnatic ragas in the traditional format, accompanied by violin and mridangam.
-* Performed by SeshaLatha Manda, the daughter and disciple of Late Sri Manda Balarama Sarma (Flute), honoring and continuing his classical musical legacy. </span>
+                  <span>Traditional Carnatic raga presentation with violin and mridangam by SeshaLatha Manda, disciple and daughter of Late Sri Manda Balarama Sarma. </span>
                 </li>
               </ul>
             </div>
