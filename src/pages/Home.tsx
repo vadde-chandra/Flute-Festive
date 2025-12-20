@@ -101,7 +101,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
     <div className="grid md:grid-cols-2 gap-8">
 
       {/* Card 1 */}
-      <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-shadow">
+      <div className="bg-white rounded-xl shadow-lg  hover:shadow-2xl transition-shadow">
         <img
           src="/final_classical.png"
           alt="Sesha Latha Manda"
