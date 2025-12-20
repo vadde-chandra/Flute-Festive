@@ -67,7 +67,7 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
               </div>
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
                 <p>
-                  The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri  Manda BalaRama Sarma garu</strong>.
+                  The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri Manda BalaRama Sarma Garu</strong>.
                 </p>
                 <p>
                   Organized by <strong>SeshaLatha Manda</strong>, his daughter, along with his students, this festival celebrates his lifelong contributions to flute music, teaching, and cultural heritage.
@@ -146,13 +146,13 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
           <li className="flex items-start">
             <span className="text-amber-600 mr-2">•</span>
             <span>
-              Unified student ensemble under the guidance of SeshaLatha Manda.
+              Unified student ensemble under the guidance of Shesham Ramana Garu.
             </span>
           </li>
           <li className="flex items-start">
             <span className="text-amber-600 mr-2">•</span>
             <span>
-              Tribute to Late Sri Manda Balarama Sarma garu’s musical legacy.
+              Tribute to Late Sri Manda Balarama Sarma Garu’s musical legacy.
             </span>
           </li>
         </ul>
