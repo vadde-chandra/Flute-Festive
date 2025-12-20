@@ -57,36 +57,53 @@ export default function Home({ onRegisterClick, onSignupClick }: HomeProps) {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <div className="flex items-center space-x-3 mb-6">
-                <Heart className="w-8 h-8 text-amber-600" />
-                <h2 className="text-4xl font-bold text-gray-900">About the Festival</h2>
-              </div>
-              <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
-                <p>
-                  The Hyderabad Flute Festival is dedicated to the birth anniversary of the legendary flutist <strong>Late Sri BalaRama Manda Sarma garu</strong>.
-                </p>
-                <p>
-                  Organized by <strong>SeshaLatha Manda</strong>, his daughter, along with his students, this festival celebrates his lifelong contributions to flute music, teaching, and cultural heritage.
-                </p>
-                <p>
-                 This special event brings together all his students performing as one ensemble, showcasing Classical Flute  Music in a heartfelt tribute to his memory.
-                </p>
-              </div>
-            </div>
-            <div className="flex justify-center">
-              <img
-                src="/cropped_circle_image_(1) copy.png"
-                alt="Late Sri BalaRama Sarma"
-                className="w-full max-w-sm rounded-full shadow-2xl object-cover"
-              />
-            </div>
-          </div>
+     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+    <div className="grid md:grid-cols-2 gap-8 items-center">
+      
+      {/* Text Section */}
+      <div>
+        <div className="flex items-center space-x-3 mb-6">
+          <Heart className="w-8 h-8 text-amber-600" />
+          <h2 className="text-4xl font-bold text-gray-900">
+            About the Festival
+          </h2>
         </div>
-      </section>
+
+        <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
+          <p>
+            The Hyderabad Flute Festival is dedicated to the birth anniversary of
+            the legendary flutist <strong>Late Sri BalaRama Manda Sarma garu</strong>.
+          </p>
+          <p>
+            Organized by <strong>SeshaLatha Manda</strong>, his daughter, along with
+            his students, this festival celebrates his lifelong contributions to
+            flute music, teaching, and cultural heritage.
+          </p>
+          <p>
+            This special event brings together all his students performing as one
+            ensemble, showcasing Classical Flute Music in a heartfelt tribute.
+          </p>
+        </div>
+      </div>
+
+      {/* Images Section */}
+      <div className="grid grid-cols-2 gap-4">
+        <img
+          src="/cropped_circle_image_(1) copy.png"
+          alt="Late Sri BalaRama Sarma"
+          className="w-full h-64 object-cover rounded-xl shadow-lg"
+        />
+        <img
+          src="/festival_image_2.png"
+          alt="Hyderabad Flute Festival"
+          className="w-full h-64 object-cover rounded-xl shadow-lg"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <section className="bg-gradient-to-br from-amber-50 to-orange-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
