@@ -290,4 +290,4 @@ Special thanks to:
 
 **Festival Date** - December 30, 2025
 
-**Website URL** - [Your deployment URL]
+**Website URL** - https://lucent-beijinho-f0b40b.netlify.app/
